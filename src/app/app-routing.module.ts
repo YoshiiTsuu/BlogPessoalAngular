@@ -6,9 +6,9 @@ import { LoginComponent } from './login/login.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'login', pathMatch: 'full' },
-  { path: 'login', component:LoginComponent },
-  { path: 'cadastrar', component:CadastroComponent },
-  {path: 'inicio', component:InicioComponent},
+  { path: 'login', component: LoginComponent },
+  { path: 'cadastrar', component: CadastroComponent },
+  { path: 'inicio', component: InicioComponent },
 ]
 
 @NgModule({
